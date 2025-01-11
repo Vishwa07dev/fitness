@@ -3,7 +3,7 @@ const express = require("express");
 const  OpenAIApi  = require('openai');
 
 const openai = new OpenAIApi({
-    apiKey: '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'
+    apiKey: ''
   });
 
 const router = express.Router();
